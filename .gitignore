@@ -1,6 +1,17 @@
+#virtual environment
+venv/
 .venv/
+
+#Python cache files
 __pycache__/
 *.pyc
+
+#Environment variables
 .env
+.env.*
+
+#Alembic cache and compilation files
 alembic/__pycache__/
-.env*/
+
+#macOS system files
+.DS_Store
